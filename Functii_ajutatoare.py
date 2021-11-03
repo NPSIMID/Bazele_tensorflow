@@ -104,6 +104,7 @@ def pred_and_plot(model, filename, class_names):
 
 # Functia de crearea a unui callback TensorBoard 
 import datetime
+import tensorflow as tf
 def create_tensorboard_callback(dir_name, experiment_name):
   log_dir = dir_name + "/" + experiment_name + "/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
 
