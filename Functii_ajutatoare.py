@@ -4,6 +4,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import random
+import tensorflow as tf
 
 def view_random_image(target_dir, target_class):
   # fixarea directoriului 
